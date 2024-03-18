@@ -3,8 +3,8 @@ import { useParams } from "react-router-dom";
 
 export default function Component(props) {
   // Our api key from some third-party API.
-  const apiKey = "YOUR API KEY";
-  const url = `http://some.api.com/api/getData?apikey=${apiKey}`;
+  const apiKey = "2ca531f013c64b21873abdea5b97de6f";
+  const url = `https://api.spoonacular.com/recipes/716429/information?=${apiKey}`;
 
   // State to hold the data.
   const [data, setData] = useState("null");
