@@ -1,8 +1,38 @@
-# React + Vite
+# MEALS API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This API allows users to search recipes and add, update, and delete meals from a weekly calendar.
 
-Currently, two official plugins are available:
+![alt text](<App Images/Meal Calendar.png>)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+
+1. Clone this repository:
+   git clone (https://github.com/GabrielAl-Rifai/320-SBA-1.git)
+
+2. Navigate to the project directory:
+   cd your-repository
+
+3. Install dependencies:
+   npm install
+
+4. Start the server:
+   node server.js
+
+## Usage
+
+API Key: 2ca531f013c64b21873abdea5b97de6f
+
+## Example
+
+curl -X GET http://localhost:5073/api/meals
+
+## Response
+
+## Middleware and Error Handling
+
+Body Parser: Middleware for parsing incoming request bodies.
+Error Handling: Error handling middleware is implemented in the server.js file.
+
+```bash
+
+```
